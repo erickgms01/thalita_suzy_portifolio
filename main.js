@@ -1,9 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    // ==========================================
-    // 1. LÓGICA DE INTERNACIONALIZAÇÃO (i18n)
-    // ==========================================
-    
     const translations = {
         "pt": {
             // Navbar
@@ -114,9 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if(btnEn) btnEn.addEventListener('click', (e) => { e.preventDefault(); setLanguage('en'); });
 
 
-    // ==========================================
-    // 2. LÓGICA DO CARROSSEL (Defensiva)
-    // ==========================================
+   
     const cards = document.querySelectorAll('.project-card');
     const prevBtn = document.querySelector('.prev');
     const nextBtn = document.querySelector('.next');

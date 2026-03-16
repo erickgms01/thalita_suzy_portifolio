@@ -82,7 +82,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%; /* Ajustado para alinhar com o Hero */
+    padding: 20px 5%; 
 }
 
 .logo { font-weight: bold; font-size: 1.1rem; }
