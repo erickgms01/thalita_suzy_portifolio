@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Borcelle Company | Portfolio</title>
+    <title>Thalita Suzy | Portfolio</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -12,14 +12,16 @@
         <div class="logo">Thalita Suzy Rodrigues Sampaio</div>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#blog">Projetos</a></li>
             <li class="dropdown-container">
                 <a href="#" class="dropdown-trigger">Idioma</a>
                 <ul class="dropdown-menu">
                     <li><a href="#">Português</a></li>
                     <li><a href="#">Inglês</a></li>
-    </ul>
+                </ul>
+            </li>
+        </ul>
 </li>
         </ul>
     </nav>
@@ -55,7 +57,8 @@
         </div>
 </section>
 
-    <section class="academic-journey">
+    <section class="academic-journey" id="sobre">
+
 
     <div class="mockup-container">
         <img src="assets/iphone-mockup.png" alt="Interface Mobile Portfolio" class="iphone-img">
@@ -69,7 +72,7 @@
 </p>
         </div>
 
-        <button class="btn-solid">Curriculum Vittae</button>
+        <a href="https://lattes.cnpq.br/1735218539769855" target="_blank" rel="noopener noreferrer" class="btn-solid" style="display: inline-block; text-decoration: none; text-align: center;">Curriculum Vitae</a>
 
     </div>
 
@@ -87,24 +90,11 @@
     </div>
 
     <div class="news-grid">
-        <article class="news-card">
-            <div class="card-image">
-                <img src="assets/projeto1.png" alt="UX Design">
-                <div class="image-overlay-icon">↗</div>
-            </div>
-            <div class="card-meta">
-                <span class="category-tag">UX/UI Design</span>
-                <span class="post-date">14 Mar 2026</span>
-            </div>
-            <h3>Design UI Minimalista: Benefícios e Melhores Práticas</h3>
-            <p>Uma análise sobre como a simplicidade pode elevar a experiência do usuário em interfaces complexas.</p>
-            <a href="#" class="read-more">Ler Mais</a>
-        </article>
 
         <article class="news-card">
             <div class="card-image">
                 <img src="assets/projeto2.png" alt="Web Design">
-                <div class="image-overlay-icon">↗</div>
+              
             </div>
             <div class="card-meta">
                 <span class="category-tag">Software Dev</span>
@@ -112,13 +102,13 @@
             </div>
             <h3>Melhorando a Performance Web com Clean Code</h3>
             <p>Dicas práticas para otimizar o carregamento de sites utilizando boas práticas de desenvolvimento.</p>
-            <a href="#" class="read-more">Ler Mais</a>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7304932510893797377/" class="read-more">Ler Mais</a>
         </article>
 
         <article class="news-card">
             <div class="card-image">
                 <img src="assets/projeto3.png" alt="Teoria das Cores">
-                <div class="image-overlay-icon">↗</div>
+             
             </div>
             <div class="card-meta">
                 <span class="category-tag">Mídias Digitais</span>
@@ -126,7 +116,7 @@
             </div>
             <h3>Teoria das Cores: A Psicologia por trás do Branding</h3>
             <p>Como a escolha da paleta de cores influencia diretamente na percepção de marca do consumidor.</p>
-            <a href="#" class="read-more">Ler Mais</a>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7315538805820669953/" class="read-more">Ler Mais</a>
         </article>
     </div>
 </section>
@@ -193,50 +183,13 @@
     </div>
 </section>
 
-<section class="projects-section" id="projetos">
-    <div class="projects-header">
-        <h3 class="projects-title">Ferramentas</h3>
-        <p class="projects-description">
-            Nesta seção, você encontrará uma seleção das ferramentas que costumo utilizar, 
-            unindo criatividade e tecnologia para entregar soluções funcionais e estéticas.
-        </p>
-    </div>
-
-    <div class="carousel-container">
-        <button class="nav-btn prev">
-            <span>&#10094;</span>
-        </button>
-
-        <div class="projects-grid">
-            <div class="project-card">
-                <img src="assets/projeto1.png" alt="Projeto 01">
-                <div class="project-label">Service 01</div>
-            </div>
-
-            <div class="project-card active">
-                <img src="assets/projeto2.png" alt="Projeto 02">
-                <div class="project-label solid">Service 02</div>
-            </div>
-
-            <div class="project-card">
-                <img src="assets/projeto3.png" alt="Projeto 03">
-                <div class="project-label">Service 03</div>
-            </div>
-        </div>
-
-        <button class="nav-btn next">
-            <span>&#10095;</span>
-        </button>
-    </div>
-</section>
-
 
 <footer class="lets-connect">
     <div class="footer-top">
         <h2 class="connect-title">Let’s <span>Connect</span> there</h2>
-        <a href="mailto:seuemail@gmail.com" class="footer-cta-btn">
-            Vamos conversar <span class="arrow">→</span>
-        </a>
+        <a href="mailto:seuemail@gmail.com?subject=Contato via Portfólio&body=Olá Thalita, gostaria de conversar sobre um projeto..." class="footer-cta-btn">
+    Vamos conversar <span class="arrow">→</span>
+</a>
     </div>
 
     <hr class="footer-divider">
@@ -277,23 +230,13 @@
             </ul>
         </div>
 
-        <div class="footer-newsletter">
-            <h4>Fique por dentro</h4>
-            <div class="input-group">
-                <input type="email" placeholder="Seu melhor e-mail">
-                <button class="send-btn">➤</button>
-            </div>
-        </div>
     </div>
 
     <div class="footer-bottom">
         <p>Copyright © 2026 <span>Thalita Suzy</span>. Todos os direitos reservados.</p>
-        <div class="bottom-links">
-            <a href="#">Termos & Condições</a>
-            <a href="#">Política de Privacidade</a>
-        </div>
     </div>
 </footer>
 
 </body>
 </html>
+<script src="main.js" defer></script>

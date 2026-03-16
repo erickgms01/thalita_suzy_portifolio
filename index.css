@@ -6,6 +6,13 @@
     font-family: 'Arial', sans-serif; /* Recomendo usar 'Inter' ou 'Lexend' do Google Fonts */
 }
 
+/* Ativa a rolagem suave na página inteira */
+html {
+    scroll-behavior: smooth;
+    /* Dá um respiro no topo para o conteúdo não ficar colado quando rolar */
+    scroll-padding-top: 40px; 
+}
+
 body {
     background-color: #f2f0ef; /* Tom off-white do fundo */
     color: #2b2624;
