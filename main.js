@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "foot_btn": "Vamos conversar <span class=\"arrow\">→</span>", 
             "foot_desc": "Desenvolvedora Front-end e Designer Visual apaixonada por criar experiências digitais que conectam pessoas e propósitos.",
             "foot_nav": "Navegação", 
-            "foot_contact": "Contato", 
+            "foot_contact": "Vamos Conectar", 
             "foot_rights": "Copyright © 2026 <span>Thalita Suzy</span>. Todos os direitos reservados."
         },
         "en": {
